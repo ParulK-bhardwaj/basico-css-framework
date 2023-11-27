@@ -22,6 +22,55 @@ body, html {
     min-height: 100%;
 }
 
+body.dark {
+    background-color: var(--color-bg-dark);
+    color: var(--color-bg-light);
+
+    & h1, h2, h3, h4, h5, h6, figcaption {
+        color: var(--color-md-light);
+    }
+
+    & a {
+        color: var(--color-info-light);
+    }
+
+    & abbr {
+        color: var(--color-success);
+    }
+
+    & em {
+        color: var(--secondary-color);
+    }
+
+    & .form-container {
+        background-color: var(--color-bg-dark);
+    }
+
+    & pre{
+        background-color: var(--primary-color);
+    }
+
+    & blockquote {
+        background-color: var(--primary-color);
+    }
+
+    & .page-footer {
+        border-top: none;
+    }
+} 
+
+section {
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: var(--horizontal-space);
+    margin: 2rem var(--vertical-space);
+    padding: var(--horizontal-space);
+}
+
+header {
+    text-align: center;
+}
+
 p, .info, h1, h2, h3, h4, h5, h6 {
     margin: 0 var(--horizontal-space) var(--vertical-space) var(--horizontal-space);
 }
@@ -392,7 +441,7 @@ figcaption {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    border-top: 3px solid var(--color-foreground);
+    border-top: 2px solid var(--color-foreground);
 }
 
 .page-footer ul {

@@ -12,7 +12,7 @@ To use `Moderno` in your project, just download the `moderno.css` and `moderno-t
 <link rel="stylesheet" href="path/to/moderno.css">
 ```
 ### Sample HTML
-![image](https://github.com/ParulK-bhardwaj/moderno-css-framework/assets/111934039/a93ae88c-8a68-4bb0-88ef-d25868dbb038)
+![image](https://github.com/ParulK-bhardwaj/moderno-css-framework/assets/111934039/dfbf4a9f-2b94-4192-b6cd-9a0fd7641275)
 
 ### Sample HTML
-![image](https://github.com/ParulK-bhardwaj/moderno-css-framework/assets/111934039/91d2fbcc-9b7c-4f20-ac7a-fa188285b124)
+![image](https://github.com/ParulK-bhardwaj/moderno-css-framework/assets/111934039/c33a45fa-6576-401e-9993-7ed8e0afb00e)

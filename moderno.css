@@ -20,6 +20,7 @@ body, html {
     margin: 0;
     padding: 0;
     width: 100%;
+    min-height: 100%;
 
 }
 
@@ -50,6 +51,11 @@ strong {
 
 em {
     color: var(--color-dark);
+}
+
+abbr {
+    color: var(--color-callout);
+    text-decoration: none;
 }
 
 a {
